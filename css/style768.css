@@ -1,0 +1,108 @@
+@media (min-width: 768px) {
+    body {
+      background-position-x: 190px;
+      background-position-y: -340px;
+    }
+    /* Estilos del contenido */
+    /* Estilos primera caja Imagen y presentacion */
+    .section-container {
+      background-position-x: 450px;
+      background-position-y: 180px;
+    }
+    .illustration-container img {
+      width: 50%;
+    }
+    .presentation-container p {
+      font-size: 1rem;
+    }
+    .presentation-container a {
+      padding: 2% 6%;
+      font-size: 1rem;
+    }
+    /* Estilos segundo grupo de cajas explicación del producto */
+    .principal-description-container h2 {
+      font-size: 1.5rem;
+    }
+    .principal-description-container p {
+      font-size: 1rem;
+    }
+    .items-container h2 {
+      font-size: 1rem;
+    }
+    .description-container .items-container:nth-child(1) h2::before {
+      font-size: 1.2em;
+      padding: 3% 5%;
+      border-radius: 25px;
+    }
+    .description-container .items-container:nth-child(2) h2::before {
+      font-size: 1.2em;
+      padding: 3% 5%;
+      border-radius: 25px;
+    }
+    .description-container .items-container:nth-child(3) h2::before {
+      font-size: 1.2em;
+      padding: 3% 5%;
+      border-radius: 25px;
+    }
+    .items-container p {
+      font-size: 1rem;
+    }
+    /* Estilos tercer grupo de cajas Experiencias de usuario */
+    .experience-container h3 {
+      font-size: 2rem;
+    }
+    .individual-experience h4 {
+      font-size: 1.3rem;
+    }
+    .individual-experience p {
+      line-height: 25px;
+      font-size: 1rem;
+    }
+    .experience-container .individual-experience:nth-child(1) {
+      display: none;
+    }
+    .experience-container .individual-experience:nth-child(3) {
+      display: none;
+    }
+    .experience-container .individual-experience:nth-child(4) {
+      display: none;
+    }
+    /* Estilos cuarta caja */
+    .presentation-container-bottom {
+      padding: 10% 0;
+    }
+    .presentation-container-bottom div h3 {
+      font-size: 3rem;
+    }
+    .presentation-container-bottom div a {
+      font-size: 1.2rem;
+      padding: 3% 8%;
+    }
+    /* Estilos del footer */
+    .footer-logo {
+      width: 32%;
+      margin: 5% 0%;
+      align-self: center;
+    }
+    .icon-images {
+      width: 6%;
+      margin: 15px;
+    }
+    .nav-footer-container {
+      padding: 7% 7% 3% 7%;
+    }
+    .nav-footer-container ul li {
+      font-size: 1.4rem;
+    }
+    .form-inbox-container input {
+      padding: 3% 6%;
+      font-size: 1rem;
+    }
+    .form-inbox-container button {
+      padding: 3% 5%;
+    }
+    .footer-container p {
+      font-size: 1rem;
+      padding: 5% 0% 0% 0%;
+    }
+  }
